@@ -6,7 +6,7 @@ html, body {
 body {
     height: 100%;
     width: 100%;
-    background: url('images/back2.jpg');
+    background: url('./images/back2.jpg');
     background-size: cover;
 }
 body::before {
@@ -46,7 +46,7 @@ h5 {
     margin: 30px calc(-100% * 4.4 / 90);
     height: 100%;
     width: 100%;
-    background: url('images/back.jpg');
+    background: url('./images/back.jpg');
     background-size: 100%;
     opacity: 0.5;
          background-repeat: repeat-y;
@@ -88,7 +88,7 @@ h5 {
     height: 100%;
     width: 100%;
     position:absolute;
-    background-image: url('images/new.jpg');
+    background-image: url('./images/new.jpg');
     background-attachment: fixed;
     background-size: cover;
     --value: 0.4;
