@@ -1,6 +1,3 @@
-//const instaPics = document.getElementsByClassName("crop");
-//const width1 = - instaPics[0].offsetWidth / 1.5;
-
 Array.from(document.getElementsByClassName("crop")).forEach(function (element) {
   element.style.marginBottom = -element.offsetWidth / 1.7 + "px";
 });
@@ -37,10 +34,3 @@ window.addEventListener("scroll", () => {
 
 const texts = document.getElementsByClassName("hello");
 texts[0].innerHTML += "&nbsp".repeat(46);
-
-/*
-instaPics.forEach((element) => {
-  console.log(element);
-  //const props = element.getBoundingClientRect();
-  //console.log(props);
-});*/
