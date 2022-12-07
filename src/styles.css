@@ -1,5 +1,4 @@
-html,
-body {
+html, body {
   padding: 0;
   margin: 0;
   min-height: 100%;
@@ -11,44 +10,12 @@ body {
   background-size: cover;
   
   }
-/*removed*/
-/*
-body::before {
-  content: "";
-}
-h5 {
-  margin: 20px auto;
-  width: 20vw;
-  text-align: center;
-  font-family: helvetica;
-  font-weight: 700;
-  font-size: 3em;
-}*/ /**/
-/*
-  margin:auto;
-  width:60vw;
-  text-align:justify;
-  font-family:didot;
-  line-height:1.5;
-
-  overflow:visible;
-  width: 100%;
-  margin: 8em;
-  background-color: red;
-  */
 #grid-container {
   display: grid;
-  /*removed*/
-  /*
-  grid-template-columns: repeat(auto-fit, minmax(400px, calc(100% / 3 - 2em)));*/
-   /*Added*/
-  grid-template-columns: 1fr 1fr 1fr;/**/
+  grid-template-columns: 1fr 1fr 1fr;
   column-gap: 1em;
   margin-top: -2em;
   padding: 0 5%;
-    /*removed*/
-  /*justify-content: space-around;*/
-  /*min-width: 600px;*/
 }
 .crop {
   display: flex;
@@ -60,11 +27,6 @@ h5 {
 instagram-media {
   object-fit:fill;
 }
-/*removed*/
-/*
-.instagram-media {
-  min-width: 600px;
-}*/
 .startBackground {
   height: 100%;
   width: 100%;
@@ -99,10 +61,8 @@ instagram-media {
   position: relative;
   margin: 2em 0;
   display: block;
-  /*modified*/
   width: min(50vw, 50vh);
   height: auto;
-  /**/
   animation-name: appearFromBottom;
   animation-duration: 2s;
 }
@@ -110,7 +70,6 @@ instagram-media {
   font-size: 5rem;
   font-weight: 700;
   color: white;
-  /*modified*/
   margin-top: 0.3rem;
   margin-bottom: 0.8rem; 
   z-index: 3;
@@ -184,14 +143,12 @@ instagram-media {
   .intro {
     font-size: 3rem;
   }
-   /*Added*/
   #grid-container {
     grid-template-columns: 1fr 1fr;
   }
   #photo {
     width: min(60vw, 60vh);
   }
-  /**/
 }
 @media screen and (max-width: 700px) {
   #name {
@@ -203,7 +160,6 @@ instagram-media {
   .intro {
     font-size: 2rem;
   }
-  /*Added*/
   #grid-container {
     grid-template-columns: 1fr;
   }
@@ -220,7 +176,6 @@ instagram-media {
   .intro {
     font-size: 1.6rem;
   }
-  /*Added*/
   #photo {
     width: min(70vw, 70vh);
   }
